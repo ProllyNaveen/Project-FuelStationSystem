@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CA84C99F-3AF1-4C04-8F96-97836A718539}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Project_FuelStationSystem</RootNamespace>
+    <AssemblyName>Project FuelStationSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminMenu.Designer.cs">
+      <DependentUpon>AdminMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierLogin.Designer.cs">
+      <DependentUpon>CashierLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cashiertransactions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cashiertransactions.Designer.cs">
+      <DependentUpon>Cashiertransactions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deleteadmins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deleteadmins.Designer.cs">
+      <DependentUpon>Deleteadmins.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deletecashier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deletecashier.Designer.cs">
+      <DependentUpon>Deletecashier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fuelmanagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fuelmanagement.Designer.cs">
+      <DependentUpon>fuelmanagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryManagement.Designer.cs">
+      <DependentUpon>InventoryManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="removefueltype.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="removefueltype.Designer.cs">
+      <DependentUpon>removefueltype.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransactionHistory.Designer.cs">
+      <DependentUpon>TransactionHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateAdmins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateAdmins.Designer.cs">
+      <DependentUpon>UpdateAdmins.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Updatecashiers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updatecashiers.Designer.cs">
+      <DependentUpon>Updatecashiers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usermanagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usermanagement.Designer.cs">
+      <DependentUpon>Usermanagement.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminMenu.resx">
+      <DependentUpon>AdminMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierLogin.resx">
+      <DependentUpon>CashierLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cashiertransactions.resx">
+      <DependentUpon>Cashiertransactions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deleteadmins.resx">
+      <DependentUpon>Deleteadmins.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deletecashier.resx">
+      <DependentUpon>Deletecashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fuelmanagement.resx">
+      <DependentUpon>fuelmanagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryManagement.resx">
+      <DependentUpon>InventoryManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="removefueltype.resx">
+      <DependentUpon>removefueltype.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransactionHistory.resx">
+      <DependentUpon>TransactionHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateAdmins.resx">
+      <DependentUpon>UpdateAdmins.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updatecashiers.resx">
+      <DependentUpon>Updatecashiers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usermanagement.resx">
+      <DependentUpon>Usermanagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_346490738-stock-photo-technical-illustration-render-gas-station-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gas-station-rain-photo-app-yellow-black-color-palette-315679094.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ceylon_Petroleum_Corporasadasdtion_logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1329937925-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ceypetco_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ceypetco_logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ceypetco_logo-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_54318847_dNCbsXDV87X00SpbzbZg5IaQXESUos5H-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_54318847_dNCbsXDV87X00SpbzbZg5IaQXESUos5H-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e0cfbac8-a0cf-4082-83b3-6b50a656c5d2.39672d4794e238e9d1b115c4f78277a5-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-simple-login-box-login-page-background-image_544720.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03032016163034-853x547.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-low-poly-geometric-background-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-low-poly-geometric-background-vector1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-low-poly-geometric-background-vector2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-low-poly-geometric-background-vector3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-low-poly-geometric-background-vector4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-low-poly-geometric-background-vector5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-low-poly-geometric-background-vector6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-low-poly-geometric-background-vector7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-low-poly-geometric-background-vector8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-low-poly-geometric-background-vector9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-low-poly-geometric-background-vector10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-11-22 141317.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-11-22 134738.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-low-poly-geometric-background-vector11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-11-22 1347381.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-11-22 1413171.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ceypetco_logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ceypetco_logo-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ceypetco_logo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_button-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capadaminture-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captucashierre-removebg-preview.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
