@@ -37,29 +37,26 @@
             // 
             // txtfuelname
             // 
-            this.txtfuelname.Location = new System.Drawing.Point(439, 190);
-            this.txtfuelname.Margin = new System.Windows.Forms.Padding(4);
+            this.txtfuelname.Location = new System.Drawing.Point(329, 154);
             this.txtfuelname.Name = "txtfuelname";
-            this.txtfuelname.Size = new System.Drawing.Size(132, 22);
+            this.txtfuelname.Size = new System.Drawing.Size(100, 20);
             this.txtfuelname.TabIndex = 0;
             // 
             // lblfueltype
             // 
             this.lblfueltype.AutoSize = true;
             this.lblfueltype.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblfueltype.Location = new System.Drawing.Point(25, 190);
-            this.lblfueltype.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblfueltype.Location = new System.Drawing.Point(19, 154);
             this.lblfueltype.Name = "lblfueltype";
-            this.lblfueltype.Size = new System.Drawing.Size(320, 16);
+            this.lblfueltype.Size = new System.Drawing.Size(268, 13);
             this.lblfueltype.TabIndex = 1;
             this.lblfueltype.Text = "Please enter the fuel type you want to remove";
             // 
             // btnremove
             // 
-            this.btnremove.Location = new System.Drawing.Point(383, 285);
-            this.btnremove.Margin = new System.Windows.Forms.Padding(4);
+            this.btnremove.Location = new System.Drawing.Point(287, 232);
             this.btnremove.Name = "btnremove";
-            this.btnremove.Size = new System.Drawing.Size(100, 28);
+            this.btnremove.Size = new System.Drawing.Size(75, 23);
             this.btnremove.TabIndex = 2;
             this.btnremove.Text = "Remove";
             this.btnremove.UseVisualStyleBackColor = true;
@@ -67,10 +64,9 @@
             // 
             // btnback
             // 
-            this.btnback.Location = new System.Drawing.Point(603, 285);
-            this.btnback.Margin = new System.Windows.Forms.Padding(4);
+            this.btnback.Location = new System.Drawing.Point(452, 232);
             this.btnback.Name = "btnback";
-            this.btnback.Size = new System.Drawing.Size(100, 28);
+            this.btnback.Size = new System.Drawing.Size(75, 23);
             this.btnback.TabIndex = 3;
             this.btnback.Text = "Back";
             this.btnback.UseVisualStyleBackColor = true;
@@ -78,17 +74,18 @@
             // 
             // frmremovefueltype
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Project_FuelStationSystem.Properties.Resources.black_low_poly_geometric_background_vector6;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnback);
             this.Controls.Add(this.btnremove);
             this.Controls.Add(this.lblfueltype);
             this.Controls.Add(this.txtfuelname);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmremovefueltype";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "removefueltype";
             this.Load += new System.EventHandler(this.frmremovefueltype_Load);
             this.ResumeLayout(false);

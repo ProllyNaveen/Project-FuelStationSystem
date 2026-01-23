@@ -37,27 +37,28 @@
             // 
             // txtcashiername
             // 
-            this.txtcashiername.Location = new System.Drawing.Point(236, 74);
-            this.txtcashiername.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtcashiername.Location = new System.Drawing.Point(177, 60);
+            this.txtcashiername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtcashiername.Name = "txtcashiername";
-            this.txtcashiername.Size = new System.Drawing.Size(100, 22);
+            this.txtcashiername.Size = new System.Drawing.Size(76, 20);
             this.txtcashiername.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(135, 78);
+            this.label1.Location = new System.Drawing.Point(101, 63);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 16);
+            this.label1.Size = new System.Drawing.Size(73, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Cashier Name";
             // 
             // btndelete
             // 
-            this.btndelete.Location = new System.Drawing.Point(236, 143);
-            this.btndelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btndelete.Location = new System.Drawing.Point(177, 116);
+            this.btndelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btndelete.Name = "btndelete";
-            this.btndelete.Size = new System.Drawing.Size(75, 23);
+            this.btndelete.Size = new System.Drawing.Size(56, 19);
             this.btndelete.TabIndex = 4;
             this.btndelete.Text = "Delete";
             this.btndelete.UseVisualStyleBackColor = true;
@@ -65,10 +66,10 @@
             // 
             // btnback
             // 
-            this.btnback.Location = new System.Drawing.Point(373, 143);
-            this.btnback.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnback.Location = new System.Drawing.Point(280, 116);
+            this.btnback.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnback.Name = "btnback";
-            this.btnback.Size = new System.Drawing.Size(75, 23);
+            this.btnback.Size = new System.Drawing.Size(56, 19);
             this.btnback.TabIndex = 5;
             this.btnback.Text = "Back";
             this.btnback.UseVisualStyleBackColor = true;
@@ -76,17 +77,19 @@
             // 
             // frmdeletecashier
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Project_FuelStationSystem.Properties.Resources.black_low_poly_geometric_background_vector4;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.btnback);
             this.Controls.Add(this.btndelete);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtcashiername);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmdeletecashier";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Deletecashier";
             this.ResumeLayout(false);
             this.PerformLayout();

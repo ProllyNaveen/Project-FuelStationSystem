@@ -43,27 +43,24 @@
             // dgvFuelInventory
             // 
             this.dgvFuelInventory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvFuelInventory.Location = new System.Drawing.Point(544, 78);
-            this.dgvFuelInventory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvFuelInventory.Location = new System.Drawing.Point(408, 63);
             this.dgvFuelInventory.Name = "dgvFuelInventory";
             this.dgvFuelInventory.RowHeadersWidth = 51;
-            this.dgvFuelInventory.Size = new System.Drawing.Size(320, 185);
+            this.dgvFuelInventory.Size = new System.Drawing.Size(240, 150);
             this.dgvFuelInventory.TabIndex = 0;
             // 
             // txtNewStock
             // 
-            this.txtNewStock.Location = new System.Drawing.Point(165, 309);
-            this.txtNewStock.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNewStock.Location = new System.Drawing.Point(124, 251);
             this.txtNewStock.Name = "txtNewStock";
-            this.txtNewStock.Size = new System.Drawing.Size(132, 22);
+            this.txtNewStock.Size = new System.Drawing.Size(100, 20);
             this.txtNewStock.TabIndex = 2;
             // 
             // btnUpdateStock
             // 
-            this.btnUpdateStock.Location = new System.Drawing.Point(179, 395);
-            this.btnUpdateStock.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUpdateStock.Location = new System.Drawing.Point(134, 321);
             this.btnUpdateStock.Name = "btnUpdateStock";
-            this.btnUpdateStock.Size = new System.Drawing.Size(120, 28);
+            this.btnUpdateStock.Size = new System.Drawing.Size(90, 23);
             this.btnUpdateStock.TabIndex = 3;
             this.btnUpdateStock.Text = "UpdateStock";
             this.btnUpdateStock.UseVisualStyleBackColor = true;
@@ -72,19 +69,17 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(65, 313);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(49, 254);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 16);
+            this.label2.Size = new System.Drawing.Size(60, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "New Stock";
             // 
             // btnback
             // 
-            this.btnback.Location = new System.Drawing.Point(433, 395);
-            this.btnback.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnback.Location = new System.Drawing.Point(325, 321);
             this.btnback.Name = "btnback";
-            this.btnback.Size = new System.Drawing.Size(100, 28);
+            this.btnback.Size = new System.Drawing.Size(75, 23);
             this.btnback.TabIndex = 6;
             this.btnback.Text = "Back";
             this.btnback.UseVisualStyleBackColor = true;
@@ -92,10 +87,9 @@
             // 
             // btnrefresh
             // 
-            this.btnrefresh.Location = new System.Drawing.Point(653, 301);
-            this.btnrefresh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnrefresh.Location = new System.Drawing.Point(490, 245);
             this.btnrefresh.Name = "btnrefresh";
-            this.btnrefresh.Size = new System.Drawing.Size(100, 28);
+            this.btnrefresh.Size = new System.Drawing.Size(75, 23);
             this.btnrefresh.TabIndex = 7;
             this.btnrefresh.Text = "refresh";
             this.btnrefresh.UseVisualStyleBackColor = true;
@@ -104,28 +98,26 @@
             // cbfuelname
             // 
             this.cbfuelname.FormattingEnabled = true;
-            this.cbfuelname.Location = new System.Drawing.Point(165, 238);
-            this.cbfuelname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbfuelname.Location = new System.Drawing.Point(124, 193);
             this.cbfuelname.Name = "cbfuelname";
-            this.cbfuelname.Size = new System.Drawing.Size(160, 24);
+            this.cbfuelname.Size = new System.Drawing.Size(121, 21);
             this.cbfuelname.TabIndex = 8;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(65, 247);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(49, 201);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 16);
+            this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 4;
             this.label1.Text = "Fuel Type";
             // 
             // frmInventoryManagement
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Project_FuelStationSystem.Properties.Resources.black_low_poly_geometric_background_vector;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.cbfuelname);
             this.Controls.Add(this.btnrefresh);
             this.Controls.Add(this.btnback);
@@ -134,9 +126,10 @@
             this.Controls.Add(this.btnUpdateStock);
             this.Controls.Add(this.txtNewStock);
             this.Controls.Add(this.dgvFuelInventory);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmInventoryManagement";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "InventoryManagement";
             this.Load += new System.EventHandler(this.frmInventoryManagement_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvFuelInventory)).EndInit();

@@ -165,8 +165,10 @@
             this.Controls.Add(this.btncalculate);
             this.Controls.Add(this.txtliters);
             this.Controls.Add(this.cbFuelType);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCashiertransactions";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cashiertransactions";
             this.Load += new System.EventHandler(this.frmCashiertransactions_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTransactions)).EndInit();

@@ -44,57 +44,51 @@
             // 
             // txtfuelprice
             // 
-            this.txtfuelprice.Location = new System.Drawing.Point(309, 149);
-            this.txtfuelprice.Margin = new System.Windows.Forms.Padding(4);
+            this.txtfuelprice.Location = new System.Drawing.Point(232, 121);
             this.txtfuelprice.Name = "txtfuelprice";
-            this.txtfuelprice.Size = new System.Drawing.Size(132, 22);
+            this.txtfuelprice.Size = new System.Drawing.Size(100, 20);
             this.txtfuelprice.TabIndex = 0;
             // 
             // txtfuelname
             // 
-            this.txtfuelname.Location = new System.Drawing.Point(309, 114);
-            this.txtfuelname.Margin = new System.Windows.Forms.Padding(4);
+            this.txtfuelname.Location = new System.Drawing.Point(232, 93);
             this.txtfuelname.Name = "txtfuelname";
-            this.txtfuelname.Size = new System.Drawing.Size(132, 22);
+            this.txtfuelname.Size = new System.Drawing.Size(100, 20);
             this.txtfuelname.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(183, 117);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(137, 95);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 16);
+            this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Fuel Name";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(183, 158);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(137, 128);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 16);
+            this.label2.Size = new System.Drawing.Size(72, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Price per Liter";
             // 
             // datagridfuel
             // 
             this.datagridfuel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.datagridfuel.Location = new System.Drawing.Point(617, 33);
-            this.datagridfuel.Margin = new System.Windows.Forms.Padding(4);
+            this.datagridfuel.Location = new System.Drawing.Point(463, 27);
             this.datagridfuel.Name = "datagridfuel";
             this.datagridfuel.ReadOnly = true;
             this.datagridfuel.RowHeadersWidth = 51;
-            this.datagridfuel.Size = new System.Drawing.Size(407, 185);
+            this.datagridfuel.Size = new System.Drawing.Size(305, 150);
             this.datagridfuel.TabIndex = 4;
             // 
             // btnadd
             // 
-            this.btnadd.Location = new System.Drawing.Point(269, 242);
-            this.btnadd.Margin = new System.Windows.Forms.Padding(4);
+            this.btnadd.Location = new System.Drawing.Point(202, 197);
             this.btnadd.Name = "btnadd";
-            this.btnadd.Size = new System.Drawing.Size(100, 28);
+            this.btnadd.Size = new System.Drawing.Size(75, 23);
             this.btnadd.TabIndex = 5;
             this.btnadd.Text = "Add";
             this.btnadd.UseVisualStyleBackColor = true;
@@ -102,10 +96,9 @@
             // 
             // btnupdate
             // 
-            this.btnupdate.Location = new System.Drawing.Point(377, 242);
-            this.btnupdate.Margin = new System.Windows.Forms.Padding(4);
+            this.btnupdate.Location = new System.Drawing.Point(283, 197);
             this.btnupdate.Name = "btnupdate";
-            this.btnupdate.Size = new System.Drawing.Size(100, 28);
+            this.btnupdate.Size = new System.Drawing.Size(75, 23);
             this.btnupdate.TabIndex = 6;
             this.btnupdate.Text = "Update";
             this.btnupdate.UseVisualStyleBackColor = true;
@@ -113,10 +106,9 @@
             // 
             // btnback
             // 
-            this.btnback.Location = new System.Drawing.Point(327, 366);
-            this.btnback.Margin = new System.Windows.Forms.Padding(4);
+            this.btnback.Location = new System.Drawing.Point(245, 297);
             this.btnback.Name = "btnback";
-            this.btnback.Size = new System.Drawing.Size(100, 28);
+            this.btnback.Size = new System.Drawing.Size(75, 23);
             this.btnback.TabIndex = 7;
             this.btnback.Text = "Back";
             this.btnback.UseVisualStyleBackColor = true;
@@ -124,10 +116,9 @@
             // 
             // btnrefresh
             // 
-            this.btnrefresh.Location = new System.Drawing.Point(771, 256);
-            this.btnrefresh.Margin = new System.Windows.Forms.Padding(4);
+            this.btnrefresh.Location = new System.Drawing.Point(578, 208);
             this.btnrefresh.Name = "btnrefresh";
-            this.btnrefresh.Size = new System.Drawing.Size(100, 28);
+            this.btnrefresh.Size = new System.Drawing.Size(75, 23);
             this.btnrefresh.TabIndex = 8;
             this.btnrefresh.Text = "refresh";
             this.btnrefresh.UseVisualStyleBackColor = true;
@@ -135,10 +126,9 @@
             // 
             // btnremove
             // 
-            this.btnremove.Location = new System.Drawing.Point(924, 256);
-            this.btnremove.Margin = new System.Windows.Forms.Padding(4);
+            this.btnremove.Location = new System.Drawing.Point(693, 208);
             this.btnremove.Name = "btnremove";
-            this.btnremove.Size = new System.Drawing.Size(100, 28);
+            this.btnremove.Size = new System.Drawing.Size(75, 23);
             this.btnremove.TabIndex = 9;
             this.btnremove.Text = "Remove";
             this.btnremove.UseVisualStyleBackColor = true;
@@ -146,10 +136,10 @@
             // 
             // frmfuelmanagement
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Project_FuelStationSystem.Properties.Resources.black_low_poly_geometric_background_vector5;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnremove);
             this.Controls.Add(this.btnrefresh);
             this.Controls.Add(this.btnback);
@@ -160,9 +150,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtfuelname);
             this.Controls.Add(this.txtfuelprice);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmfuelmanagement";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fuelmanagement";
             this.Load += new System.EventHandler(this.frmfuelmanagement_Load);
             ((System.ComponentModel.ISupportInitialize)(this.datagridfuel)).EndInit();

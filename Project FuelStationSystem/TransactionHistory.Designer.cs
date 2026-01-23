@@ -38,30 +38,27 @@
             // dgvTransactionHistory
             // 
             this.dgvTransactionHistory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTransactionHistory.Location = new System.Drawing.Point(84, 60);
-            this.dgvTransactionHistory.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvTransactionHistory.Location = new System.Drawing.Point(63, 49);
             this.dgvTransactionHistory.Name = "dgvTransactionHistory";
             this.dgvTransactionHistory.RowHeadersWidth = 51;
-            this.dgvTransactionHistory.Size = new System.Drawing.Size(916, 448);
+            this.dgvTransactionHistory.Size = new System.Drawing.Size(687, 364);
             this.dgvTransactionHistory.TabIndex = 0;
             // 
             // lblTotalAmount
             // 
             this.lblTotalAmount.AutoSize = true;
             this.lblTotalAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalAmount.Location = new System.Drawing.Point(127, 512);
-            this.lblTotalAmount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTotalAmount.Location = new System.Drawing.Point(95, 416);
             this.lblTotalAmount.Name = "lblTotalAmount";
-            this.lblTotalAmount.Size = new System.Drawing.Size(53, 20);
+            this.lblTotalAmount.Size = new System.Drawing.Size(46, 17);
             this.lblTotalAmount.TabIndex = 1;
             this.lblTotalAmount.Text = "label1";
             // 
             // btnback
             // 
-            this.btnback.Location = new System.Drawing.Point(867, 513);
-            this.btnback.Margin = new System.Windows.Forms.Padding(4);
+            this.btnback.Location = new System.Drawing.Point(650, 417);
             this.btnback.Name = "btnback";
-            this.btnback.Size = new System.Drawing.Size(100, 28);
+            this.btnback.Size = new System.Drawing.Size(75, 23);
             this.btnback.TabIndex = 2;
             this.btnback.Text = "Back";
             this.btnback.UseVisualStyleBackColor = true;
@@ -69,16 +66,17 @@
             // 
             // frmtransactionhistory
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Project_FuelStationSystem.Properties.Resources.black_low_poly_geometric_background_vector7;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnback);
             this.Controls.Add(this.lblTotalAmount);
             this.Controls.Add(this.dgvTransactionHistory);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmtransactionhistory";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TransactionHistory";
             this.Load += new System.EventHandler(this.frmtransactionhistory_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTransactionHistory)).EndInit();

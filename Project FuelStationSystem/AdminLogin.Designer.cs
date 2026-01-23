@@ -43,10 +43,9 @@
             // 
             // btnlogin
             // 
-            this.btnlogin.Location = new System.Drawing.Point(342, 389);
-            this.btnlogin.Margin = new System.Windows.Forms.Padding(4);
+            this.btnlogin.Location = new System.Drawing.Point(256, 316);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(100, 28);
+            this.btnlogin.Size = new System.Drawing.Size(75, 23);
             this.btnlogin.TabIndex = 0;
             this.btnlogin.Text = "Login";
             this.btnlogin.UseVisualStyleBackColor = true;
@@ -54,47 +53,42 @@
             // 
             // txtadminname
             // 
-            this.txtadminname.Location = new System.Drawing.Point(360, 210);
-            this.txtadminname.Margin = new System.Windows.Forms.Padding(4);
+            this.txtadminname.Location = new System.Drawing.Point(270, 171);
             this.txtadminname.Name = "txtadminname";
-            this.txtadminname.Size = new System.Drawing.Size(324, 22);
+            this.txtadminname.Size = new System.Drawing.Size(244, 20);
             this.txtadminname.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(254, 213);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(190, 173);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 16);
+            this.label1.Size = new System.Drawing.Size(64, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "AdminName";
             // 
             // txtpassword
             // 
-            this.txtpassword.Location = new System.Drawing.Point(360, 287);
-            this.txtpassword.Margin = new System.Windows.Forms.Padding(4);
+            this.txtpassword.Location = new System.Drawing.Point(270, 233);
             this.txtpassword.Name = "txtpassword";
-            this.txtpassword.Size = new System.Drawing.Size(324, 22);
+            this.txtpassword.Size = new System.Drawing.Size(244, 20);
             this.txtpassword.TabIndex = 1;
             this.txtpassword.UseSystemPasswordChar = true;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(269, 290);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(202, 236);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 16);
+            this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Password";
             // 
             // btnback
             // 
-            this.btnback.Location = new System.Drawing.Point(622, 389);
-            this.btnback.Margin = new System.Windows.Forms.Padding(4);
+            this.btnback.Location = new System.Drawing.Point(466, 316);
             this.btnback.Name = "btnback";
-            this.btnback.Size = new System.Drawing.Size(100, 28);
+            this.btnback.Size = new System.Drawing.Size(75, 23);
             this.btnback.TabIndex = 3;
             this.btnback.Text = "Back";
             this.btnback.UseVisualStyleBackColor = true;
@@ -104,9 +98,10 @@
             // 
             this.pictureBox2.BackgroundImage = global::Project_FuelStationSystem.Properties.Resources.Screenshot_2024_11_22_1347381;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(461, 70);
+            this.pictureBox2.Location = new System.Drawing.Point(346, 57);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(113, 108);
+            this.pictureBox2.Size = new System.Drawing.Size(85, 88);
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
             // 
@@ -114,17 +109,18 @@
             // 
             this.pictureBox1.Image = global::Project_FuelStationSystem.Properties.Resources.black_low_poly_geometric_background_vector10;
             this.pictureBox1.Location = new System.Drawing.Point(1, -1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1070, 555);
+            this.pictureBox1.Size = new System.Drawing.Size(802, 451);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
             // frmAdminlogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnback);
             this.Controls.Add(this.label2);
@@ -133,9 +129,10 @@
             this.Controls.Add(this.txtadminname);
             this.Controls.Add(this.btnlogin);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmAdminlogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminLogin";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

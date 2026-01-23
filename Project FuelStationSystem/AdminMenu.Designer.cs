@@ -78,7 +78,7 @@
             // btnusermanagement
             // 
             this.btnusermanagement.Location = new System.Drawing.Point(124, 128);
-            this.btnusermanagement.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnusermanagement.Margin = new System.Windows.Forms.Padding(2);
             this.btnusermanagement.Name = "btnusermanagement";
             this.btnusermanagement.Size = new System.Drawing.Size(158, 44);
             this.btnusermanagement.TabIndex = 2;
@@ -89,7 +89,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(124, 335);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(158, 41);
             this.button1.TabIndex = 3;
@@ -100,7 +100,7 @@
             // btntransactions
             // 
             this.btntransactions.Location = new System.Drawing.Point(124, 202);
-            this.btntransactions.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btntransactions.Margin = new System.Windows.Forms.Padding(2);
             this.btntransactions.Name = "btntransactions";
             this.btntransactions.Size = new System.Drawing.Size(158, 41);
             this.btntransactions.TabIndex = 4;
@@ -122,7 +122,7 @@
             // 
             this.pictureBox1.BackgroundImage = global::Project_FuelStationSystem.Properties.Resources.black_low_poly_geometric_background_vector1;
             this.pictureBox1.Location = new System.Drawing.Point(-2, 1);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(802, 450);
             this.pictureBox1.TabIndex = 6;
@@ -141,8 +141,10 @@
             this.Controls.Add(this.dataGridcashier);
             this.Controls.Add(this.dataGridadmin);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmadminmenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminMenu";
             this.Load += new System.EventHandler(this.frmadminmenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridadmin)).EndInit();
